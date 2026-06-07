@@ -1,0 +1,11 @@
+{
+  "name": "Dicionario Local Mocambique",
+  "short_name": "Dicionario Local",
+  "description": "Dicionario e gramatica digital para linguas locais de Mocambique.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7faf8",
+  "theme_color": "#0f7b61",
+  "lang": "pt-MZ",
+  "icons": []
+}
