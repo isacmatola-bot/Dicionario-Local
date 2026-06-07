@@ -27,6 +27,23 @@ npm run dev
 
 Depois abra o endereco mostrado pelo Vite, normalmente `http://127.0.0.1:5173/`.
 
+## Testar no GitHub Codespaces
+
+Este projecto esta preparado para rodar na internet atraves das portas publicas do GitHub Codespaces, sem deployment.
+
+1. Abra o repositorio no GitHub.
+2. Clique em `Code` > `Codespaces` > `Create codespace on main`.
+3. Quando o Codespace abrir, aguarde o `npm install` terminar.
+4. Execute:
+
+```bash
+npm run dev:codespace
+```
+
+5. Abra a aba `Ports` e use o link publico da porta `5173`.
+
+Enquanto o Codespace estiver ligado, o link da porta `5173` pode ser partilhado para testes na internet. Quando o Codespace parar, o link deixa de funcionar. Se a porta nao aparecer como publica, altere `Port Visibility` para `Public` na aba `Ports`.
+
 ## Estrutura
 
 ```text
